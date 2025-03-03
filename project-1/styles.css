@@ -1,7 +1,446 @@
 body {
-    background-color: blue;
+    background-color: #a37999;
+background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
 }
 
-h1 {
-    font-family: "Helvetica";
+h1 { font-family: "Bebas Neue",san-serif;
+    font-size: 40px
 }
+h1{text-align:center;}
+p{ font-family:"Roboto", sans-serif}
+h2{ font-family:"Bebas Neue",san-serif;}
+h1{
+    position: relative;
+
+    text-align: center;
+  }
+  
+
+
+#Intro{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+#Intro:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left:-15% ;
+  }
+  
+#Intro:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: -15%;
+  }
+  
+  div{
+    width: 500px;
+      border: 1px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+  }
+  #amelio{
+    position: relative;
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+#amelio:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left:-7% ;
+  }
+  
+#amelio:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: -7%;
+  }
+  
+  
+
+  div{
+    width: 500px;
+      border: 1px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+  }
+  #robles{
+    position: relative;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+#robles:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 22%;
+    left:-30%;
+  }
+  
+#robles:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: pink;
+    display: block;
+    position: absolute;
+    top: 70%;
+    right: -15%;
+  }
+
+  
+  div{
+    width: 500px;
+      border: 1px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+  }
+ 
+ #social{
+    position: relative;
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+#social:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left:-27% ;
+  }
+  
+#social:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: -27%;
+  }
+  
+  
+
+  
+  div{
+    width: 500px;
+      border: 1px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+  }
+
+#of{
+    position: relative;
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+#of:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left:-20% ;
+  }
+  
+#of:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: -20%;
+  }
+  
+  
+
+  
+  div{
+    width: 500px;
+      border: 1px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+  }
+ 
+  #posthumous{
+    position: relative;
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+#posthumous:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left:-25% ;
+  }
+  
+#posthumous:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: -25%;
+  }
+  
+  
+  section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 1rem;
+  
+  }
+  
+  div{
+    width: 500px;
+      border: 1px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+  }
+ 
+  #gender{
+    position: relative;
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+#gender:before{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    left:-25% ;
+  }
+#gender:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background: pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: -25%;
+  }
+  
+  p{
+    text-transform: unset;
+    color:rgb(0, 0, 0);
+  }
+  
+  section{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 1rem;
+  
+  }
+  
+  div{
+    width: 500px;
+      border: 1px solid #ccc;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+  }
+ p{ margin:auto;
+    width:800px;
+    justify-content: center;
+    align-items:center;
+    text-align: justify;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    line: height 0.08em;
+    font-size: 16px;  
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+h2{
+    font-size:30px;
+}
+h2{
+    position: relative;
+    max-width: 1100px;
+    margin: 100px auto;
+    text-align: left;
+  }
+  
+h2:after{
+    content:" ";
+    height: 1px;
+    width: 200px;
+    background:pink;
+    display: block;
+    position: absolute;
+    top: 45%;
+   right:90% ;}
+   h2{
+    font-size: 30px;
+    color:black;
+    text-align: left;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+    
+    a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+      }
+      
+a:hover{
+        background-color: #ddd;
+        color:black;
+      }
+      
+      .previous {
+        background-color: #f1f1f1;
+        color: black;
+      }
+      
+      .next {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      .round {
+        border-radius: 50%;
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+      }
+      
+      a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .previous {
+        background-color: #f1f1f1;
+        color: black;
+      }
+      
+      .next {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      .round {
+        border-radius: 50%;
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+      }
+      
+      a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .previous {
+        background-color: #f1f1f1;
+        color: black;
+      }
+      
+      .next {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      .round {
+        border-radius: 50%;
+      }}
