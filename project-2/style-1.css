@@ -86,7 +86,7 @@ img {
   z-index: 3;
 }
 #uma{ position: absolute;
-  top: 88.5%;
+  top: 88.6%;
   left: 36.5%;
   transform: translate(-50%, -50%);
   color: white;
@@ -100,7 +100,7 @@ img {
 }
 #david{
   position: absolute;
-  top: 88.5%;
+  top: 88.6%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -112,7 +112,7 @@ img {
   z-index: 3;
 }
 #Lucy{ position: absolute;
-  top: 88.5%;
+  top: 88.6%;
   left: 64.5%;
   transform: translate(-50%, -50%);
   color: white;
