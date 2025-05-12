@@ -6,7 +6,6 @@
   <link rel="stylesheet" href="style.css">
   <title>Jobsue Ventura Website</title>
   <style>
-
     @keyframes rainbow {
       0% { color: red; }
       14% { color: orange; }
@@ -47,17 +46,21 @@
   <a href="project-3/index.html" class="project-link" onmouseover="playSound()">Project 3</a>
   <a href="project-4/index.html" class="project-link" onmouseover="playSound()">Project 4</a>
 
-
+  <!-- Audio elements -->
   <audio id="boomshakalaka-sound" src="nba-jam-boomshakalaka.mp3" preload="auto"></audio>
 
-  <audio autoplay loop>
+  <!-- Optional background loop audio, adjust as needed -->
+  <audio id="background-music" autoplay loop>
     <source src="aa.mp3">
   </audio>
 
   <script>
     function playSound() {
       var audio = document.getElementById('boomshakalaka-sound');
-      audio.play();
+      if (audio.paused) {
+        audio.currentTime = 0;  // Rewind to the start
+        audio.play();
+      }
     }
   </script>
 
