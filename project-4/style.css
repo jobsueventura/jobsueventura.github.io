@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'digital';
+    src: url(ds_digital/DS-DIGI.TTF) format('opentype'); 
+}
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.clock-container {
+  font-family: 'digital', sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 30px 50px;
+  border: 2px solid hotpink;
+  border-radius: 10px;
+  box-shadow: 0 0 20px hotpink
+}
+
+.time {color: lightgrey;
+  font-size: 4rem;
+}
+
+.date {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #0f0;
+}

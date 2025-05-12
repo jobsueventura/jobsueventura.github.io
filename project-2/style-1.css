@@ -1,4 +1,11 @@
-/* Version 1: Poster Shape */
+@font-face {
+  font-family: 'AeroliteScriptCP';
+  src: url(AeroliteScriptCP2/AeroliteScriptCP2.otf) format('opentype'); 
+}
+@font-face {
+  font-family: 'Clash Display Variable';
+  src: url(ClashDisplay-Regular.otf) format('opentype'); 
+}
 
 .container {
   position: relative;
@@ -7,7 +14,7 @@
   padding: 20px;
   margin: auto;
   margin-top: calc(50vh - 350px);
-  z-index: 2; /* Ensure container is above #whitebody */
+  z-index: 2; 
 }
 
 body { 
@@ -53,12 +60,12 @@ img {
 }
 
 #whitebody {
-  position: absolute; /* Change from relative to absolute */
-  top: 3%; /* Places it directly below .container */
+  position: absolute;
+  top: 3%; 
   width: 500px;
   height: auto;
   left: 4%;
-  z-index: 2; /* Lowest z-index to ensure it's behind everything */
+  z-index: 2; 
 }
 #volume1{ position: absolute;
   top: 58%;
@@ -74,7 +81,7 @@ img {
 }
 #oct{
   position: absolute;
-  top: 8%;
+  top: 10%;
   left: 63%;
   transform: translate(-50%, -50%);
   color: #D61A1F;
@@ -86,7 +93,7 @@ img {
   z-index: 3;
 }
 #uma{ position: absolute;
-  top: 88.6%;
+  top: 87%;
   left: 36.5%;
   transform: translate(-50%, -50%);
   color: white;
@@ -100,7 +107,7 @@ img {
 }
 #david{
   position: absolute;
-  top: 88.6%;
+  top: 87%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -112,7 +119,7 @@ img {
   z-index: 3;
 }
 #Lucy{ position: absolute;
-  top: 88.6%;
+  top: 87%;
   left: 64.5%;
   transform: translate(-50%, -50%);
   color: white;

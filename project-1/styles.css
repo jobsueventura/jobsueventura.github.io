@@ -306,7 +306,6 @@ font-weight:600
     line-height: 22px;
 }
 .nav-box {
-  background-color: lightpink;
   padding: 10px;
   border-radius: 8px; 
   width: 250px;
@@ -361,4 +360,23 @@ font-weight: 600;
   font-size: 22px;
 font-weight: 600;
 
+}
+.nav-box {
+  display: flex;
+  justify-content: relative;     /* Centers the links horizontally */
+  gap: 20px;                   /* Adds spacing between links */
+  padding: 15px;               /* Adds some spacing inside the nav */
+  border-radius: 8px;          /* Optional: softens the corners */
+}
+
+.nav-box a {
+  color: white;                /* Link text color */
+  text-decoration: none;       /* Removes underline */
+  font-size: 18px;
+  font-family: 'jamboree', sans-serif;
+  transition: color 0.3s;
+}
+
+.nav-box a:hover {
+  color: #ffcc00;              /* Color on hover */
 }

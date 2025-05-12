@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'jamboree';
+    src: url('jamboree.otf') format('opentype'); 
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'jamboree', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  a {
+    color: #fff;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  @keyframes rainbow {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+  }
+  
+  #rainbow-element {
+    font-size: 65px;
+    font-family: 'jamboree', sans-serif;
+    animation: rainbow 3s infinite; 
+  }

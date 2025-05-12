@@ -1,15 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amelio Robles's Gender Battles In the Zapatista Army</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Jobsue Ventura Website</title>
+  <style>
+    /* Rainbow Animation */
+    @keyframes rainbow {
+      0% { color: red; }
+      14% { color: orange; }
+      28% { color: yellow; }
+      42% { color: green; }
+      57% { color: blue; }
+      71% { color: indigo; }
+      85% { color: violet; }
+      100% { color: red; }
+    }
+
+    #rainbow-element {
+      font-size: 48px;
+      font-family: 'jamboree', sans-serif;
+      animation: rainbow 3s infinite;
+    }
+
+    .project-link {
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      display: block;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>Jobsue's Website</h1>
-    <a href="project-1/Front-cover.html">Project 1</a>
-<br><a href="project-2/index.html">Project 2</a>
-    
+  <video autoplay muted loop id="myVideo">
+    <source src="NbaJam.mp4" type="video/mp4">
+  </video>
+
+  <h1 id="rainbow-element">Jobsue's Website</h1>
+
+  <a href="project-1/Front-cover.html" class="project-link" onmouseover="playSound()">Project 1</a>
+  <a href="project-2/index.html" class="project-link" onmouseover="playSound()">Project 2</a>
+  <a href="project-3/index.html" class="project-link" onmouseover="playSound()">Project 3</a>
+  <a href="project-4/index.html" class="project-link" onmouseover="playSound()">Project 4</a>
+
+
+  <audio id="boomshakalaka-sound" src="nba-jam-boomshakalaka.mp3" preload="auto"></audio>
+
+  <audio autoplay loop>
+    <source src="aa.mp3">
+  </audio>
+
+  <script>
+    function playSound() {
+      var audio = document.getElementById('boomshakalaka-sound');
+      audio.play();
+    }
+  </script>
+
 </body>
 </html>
