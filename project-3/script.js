@@ -1,14 +1,11 @@
-
 function updateFont() {
     let userInput = document.getElementById('user-input').value;
     let outputDiv1 = document.getElementById('font-output-1');
     let outputDiv2 = document.getElementById('font-output-2');
 
-
     outputDiv1.textContent = userInput;
     outputDiv2.textContent = userInput;
 }
-
 
 function makeDraggable(element) {
     let active = false;
